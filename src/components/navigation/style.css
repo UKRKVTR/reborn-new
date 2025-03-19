@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  color: white;
+  font-family: 'Inter';
+}
+.navbar {
+  background-color: black;
+  max-width: 100vw;
+  width: 100%;
+  max-height: 50px;
+  position: fixed;
+}
+.navbarWrapped {
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 250px;
+}
+.logoWhite {
+  max-width: 50px;
+  max-width: 50px;
+  padding: 5px;
+}
+.menu {
+  max-width: 100vw;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 60px;
+}
+.menuLink {
+  text-decoration: none;
+  transition: 250ms ease;
+}
+.menuLink:hover {
+  color: aqua;
+  transform: translateY(-3px) scale(102%);
+}

@@ -1,0 +1,60 @@
+.homePage {
+  color: black;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.baners {
+  max-width: 100vw;
+  width: 100%;
+}
+.image {
+  max-width: 100vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: -1;
+}
+.leftImg {
+  max-width: 1000px;
+  max-height: 1000px;
+}
+.rightImg {
+  transform: scaleX(-1);
+  max-width: 1000px;
+  max-height: 1000px;
+}
+.leftImg,
+.rightImg {
+  max-width: 50vw;
+  height: auto;
+  filter: drop-shadow(3px 30px 5px #0000002f);
+}
+.godImg {
+  max-width: 15vw;
+  height: auto;
+  animation: Shake 3s infinite ease, Shadow 3s infinite ease;
+}
+@keyframes Shake {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes Shadow {
+  0% {
+    filter: drop-shadow(3px 30px 5px #0000002f);
+  }
+  50% {
+    filter: drop-shadow(3px 10px 15px #0000002f);
+  }
+  100% {
+    filter: drop-shadow(3px 30px 5px #0000002f);
+  }
+}
