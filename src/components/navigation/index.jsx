@@ -6,11 +6,7 @@ function Nav () {
     <div className='navbar'>
       <div className='navbarWrapped'>
         <a href='#'>
-          <img
-            src='../../../public/LOGO-white.png'
-            alt='logo'
-            className='logoWhite'
-          />
+          <img src='/LOGO-white.png' alt='logo' className='logoWhite' />
         </a>
 
         <ul className='menu'>

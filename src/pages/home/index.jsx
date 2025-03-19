@@ -7,19 +7,19 @@ function Home () {
       <div className='baners'>
         <div className='image'>
           <img
-            src='../../../public/leftpng.png'
+            src='/leftpng.png'
             alt='leftImg'
             className='leftImg'
             draggable='false'
           />
           <img
-            src='../../../public/god.svg'
+            src='/god.svg'
             draggable='false'
             alt='godImg'
             className='godImg'
           />
           <img
-            src='../../../public/leftpng.png'
+            src='/leftpng.png'
             alt='rightImg'
             className='rightImg'
             draggable='false'
